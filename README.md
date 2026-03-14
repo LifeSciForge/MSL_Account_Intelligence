@@ -1,9 +1,9 @@
-# 🏥 Pharma Account Research Tool
+# 🏥 MSL Account Intelligence Tool
 
-AI-powered MSL pre-call intelligence brief generator for US hospitals.
+AI-powered pre-call intelligence brief generator for US hospital accounts.
 Enter any hospital name and therapeutic area — get an instant structured
 account brief with physician profiles, active trials, recent news, and
-an AI-generated MSL visit plan.
+an AI-generated MSL visit plan in 60 seconds.
 
 ---
 
@@ -53,8 +53,8 @@ An MSL manually researching a hospital account spends 2-3 hours across
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/LifeSciForge/Pharma_Account_Research.git
-cd Pharma_Account_Research
+git clone https://github.com/LifeSciForge/MSL_Account_Intelligence.git
+cd MSL_Account_Intelligence
 ```
 
 **2. Create virtual environment**
@@ -88,18 +88,21 @@ Open browser at `http://localhost:8501`
 | Hospital | State | Specialty | What You Get |
 |---|---|---|---|
 | Mayo Clinic | MN | oncology | 10 trials, 5 news, full brief |
-| MD Anderson | TX | immunotherapy | Trial landscape, KOL profiles |
-| Johns Hopkins | MD | neurology | Active trials, recent news |
+| MD Anderson Cancer Center | TX | oncology | Trial landscape, KOL profiles |
+| Boston Children's Hospital | MA | rare disease | Rare disease trial mapping |
+| Johns Hopkins Hospital | MD | neurology | Active trials, recent news |
 | Cleveland Clinic | OH | cardiology | Full account intelligence |
+| Memorial Sloan Kettering | NY | immunotherapy | CAR-T trial landscape |
 
 ---
 
 ## 🎯 Target Users
 
-- **MSL** — pre-call visit preparation
+- **MSL** — pre-call visit preparation in 60 seconds
 - **KAM** — account planning and prioritisation
-- **Medical Affairs** — site identification for trials
-- **Sales Ops** — territory mapping and intelligence
+- **Medical Affairs** — site identification for investigator-initiated trials
+- **BD / Biotech** — partnership and collaboration site mapping
+- **Sales Ops** — territory intelligence and mapping
 
 ---
 
@@ -121,8 +124,8 @@ All data is 100% open and publicly available:
 
 - **NPI Registry** — US government database of 6M+ healthcare providers
 - **ClinicalTrials.gov** — US government clinical trials database
-- **Tavily** — AI-optimised web search
-- **CMS Open Payments** — pharma payment transparency data
+- **Tavily** — AI-optimised web search for latest news
+- **CMS Open Payments** — pharma payment transparency data (coming soon)
 
 ---
 
@@ -134,21 +137,13 @@ AI & Automation for Life Sciences
 
 ---
 
-*Built to demonstrate practical AI application in pharma field operations*
+*Built to demonstrate practical AI application in pharma field and medical affairs operations*
 ```
 
 ---
 
-## Also create .env.example
-
-New File → `.env.example` → paste → **Cmd + S:**
+Press **Cmd + S** → then push to GitHub using Source Control or Terminal:
 ```
-# Pharma Account Research Tool — API Keys
-# Copy this file, rename to .env, add your real keys
-# NEVER upload your .env file to GitHub
-
-# Get free key at: tavily.com
-TAVILY_API_KEY=your_tavily_api_key_here
-
-# Get key at: console.anthropic.com
-ANTHROPIC_API_KEY=your_anthropic_api_key_here
+git add .
+git commit -m "Update README and rename to MSL Account Intelligence Tool"
+git push
