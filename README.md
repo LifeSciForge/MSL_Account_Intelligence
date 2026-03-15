@@ -134,16 +134,3 @@ All data is 100% open and publicly available:
 **Pranjal Das**
 AI & Automation for Life Sciences
 [github.com/LifeSciForge](https://github.com/LifeSciForge)
-
----
-
-*Built to demonstrate practical AI application in pharma field and medical affairs operations*
-```
-
----
-
-Press **Cmd + S** → then push to GitHub using Source Control or Terminal:
-```
-git add .
-git commit -m "Update README and rename to MSL Account Intelligence Tool"
-git push
